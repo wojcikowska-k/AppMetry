@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/index.f7fa0e17.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container max-w-[90%] mx-auto my-5">
+      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+  App to help with
+  <span class="text-blue-600 dark:text-blue-500">your work</span>.
+</h1>
+<p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+  Made for you. With love.
+</p>
+
+      <div class="my-10">
+        <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Wybierz grubość okleiny</label>
+<select id="veneer-thick" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+  <option selected="" value="0.8">0.8 mm</option>
+  <option value="2.0">2.0 mm</option>
+  <option value="0.5">0.5 mm</option>
+  <option value="0.7">0.7 mm</option>
+</select>
+
+<div class="relative mb-6 my-5">
+  <label for="roll-thick" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Grubość rolki</label>
+  <div class="flex">
+    <span class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+      <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path clip-rule="evenodd" d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm5-2.25A.75.75 0 017.75 7h4.5a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-4.5a.75.75 0 01-.75-.75v-4.5z" fill-rule="evenodd"></path>
+      </svg>
+    </span>
+    <input type="text" id="roll-thick" class="rounded-none rounded-r-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="podaj grubość w mm">
+  </div>
+</div>
+<button id="calculate-btn" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+  <svg class="w-5 h-5 mr-2 -ml-1" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.25 4.5l7.5 7.5-7.5 7.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </svg>
+  Policz
+</button>
+<div>
+  <h2 class="block w-48 mx-auto px-auto text-base font-medium text-gray-900 dark:text-white my-5">
+    Całkowita długość okleiny:
+  </h2>
+  <div class="h-12 border-2 border-solid border-blue-600 rounded-md">
+    <p id="total-output" class="block w-48 mx-auto text-xl font-semibold text-gray-900 dark:text-white my-1">
+      0 cm
+    </p>
+  </div>
+</div>
+
+      </div>
+    </div>
+
+    <script src="/index.0641b553.js" defer=""></script>
+  </body>
+</html>
