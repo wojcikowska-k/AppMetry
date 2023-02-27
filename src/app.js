@@ -21,7 +21,7 @@ const calculate = (veneerThick, rollThick) => {
   for (
     i = INSIDE_ROLL_RADIUS;
     i <= INSIDE_ROLL_RADIUS + rollThick;
-    i += veneerThick
+    i += veneerThick * 0.94
   ) {
     total = total + 2 * Math.PI * i;
   }
