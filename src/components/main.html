@@ -41,7 +41,7 @@
       type="text"
       id="roll-thick"
       class="rounded-none rounded-r-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-      placeholder="podaj grubość w mm"
+      placeholder="podaj grubość w cm"
     />
   </div>
 </div>
@@ -69,16 +69,33 @@
 </button>
 <div>
   <h2
-    class="block w-48 mx-auto px-auto text-base font-medium text-gray-900 dark:text-white my-5"
+    class="block mx-auto px-auto text-base font-medium text-gray-900 dark:text-white my-5"
   >
-    Całkowita długość okleiny:
+    Całkowita długość okleiny - wg metody
+    <span class="font-bold">matematycznej</span>:
   </h2>
   <div class="h-12 border-2 border-solid border-blue-600 rounded-md">
     <p
-      id="total-output"
+      id="total-output-math"
       class="block w-48 mx-auto text-xl font-semibold text-gray-900 dark:text-white my-1"
     >
-      0 cm
+      0 mb
+    </p>
+  </div>
+</div>
+<div>
+  <h2
+    class="block mx-auto px-auto text-base font-medium text-gray-900 dark:text-white my-5"
+  >
+    Całkowita długość okleiny - wg metody
+    <span class="font-bold">tabelarycznej</span>:
+  </h2>
+  <div class="h-12 border-2 border-solid border-blue-600 rounded-md">
+    <p
+      id="total-output-tab"
+      class="block w-48 mx-auto text-xl font-semibold text-gray-900 dark:text-white my-1"
+    >
+      0 mb
     </p>
   </div>
 </div>

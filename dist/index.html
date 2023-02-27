@@ -32,7 +32,7 @@
         <path clip-rule="evenodd" d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm5-2.25A.75.75 0 017.75 7h4.5a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-4.5a.75.75 0 01-.75-.75v-4.5z" fill-rule="evenodd"></path>
       </svg>
     </span>
-    <input type="text" id="roll-thick" class="rounded-none rounded-r-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="podaj grubość w mm">
+    <input type="text" id="roll-thick" class="rounded-none rounded-r-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="podaj grubość w cm">
   </div>
 </div>
 <button id="calculate-btn" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -42,15 +42,36 @@
   Policz
 </button>
 <div>
-  <h2 class="block w-48 mx-auto px-auto text-base font-medium text-gray-900 dark:text-white my-5">
-    Całkowita długość okleiny:
+  <h2 class="block mx-auto px-auto text-base font-medium text-gray-900 dark:text-white my-5">
+    Całkowita długość okleiny - wg metody
+    <span class="font-bold">matematycznej</span>:
   </h2>
   <div class="h-12 border-2 border-solid border-blue-600 rounded-md">
-    <p id="total-output" class="block w-48 mx-auto text-xl font-semibold text-gray-900 dark:text-white my-1">
-      0 cm
+    <p id="total-output-math" class="block w-48 mx-auto text-xl font-semibold text-gray-900 dark:text-white my-1">
+      0 mb
     </p>
   </div>
 </div>
+<div>
+  <h2 class="block mx-auto px-auto text-base font-medium text-gray-900 dark:text-white my-5">
+    Całkowita długość okleiny - wg metody
+    <span class="font-bold">tabelarycznej</span>:
+  </h2>
+  <div class="h-12 border-2 border-solid border-blue-600 rounded-md">
+    <p id="total-output-tab" class="block w-48 mx-auto text-xl font-semibold text-gray-900 dark:text-white my-1">
+      0 mb
+    </p>
+  </div>
+</div>
+
+      </div>
+      <div class="my-10">
+        <h3 class="block mx-5 px-auto text-base font-medium text-gray-900 dark:text-white my-5">
+  Don't stress out -
+  <span class="font-bold text-blue-600">it's gonna be okay :)</span>
+</h3>
+
+<img alt="girl and duck dancing" src="/dancing-duck.ba632cff.gif">
 
       </div>
     </div>
