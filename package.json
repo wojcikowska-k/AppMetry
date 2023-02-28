@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/*.html",
+    "homepage": "https://github.com/wojcikowska-k/AppMetry",
     "build": "parcel build src/*.html --public-url /AppMetry"
   },
   "keywords": [],
